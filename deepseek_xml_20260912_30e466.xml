@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2026-09-12 15:10">
+  <shop>
+    <name>ThePrimeWood</name>
+    <company>ThePrimeWood</company>
+    <url>https://theprimewood.ru</url>
+    <platform>custom</platform>
+    <version>1.0</version>
+    <currencies>
+      <currency id="RUB" rate="1"/>
+    </currencies>
+    <categories>
+      <category id="1">Пиломатериалы - лиственница</category>
+      <category id="2" parentId="1">Планкен прямой из лиственницы</category>
+    </categories>
+    <offers>
+      <!-- Пробный товар -->
+      <offer id="1001" available="true">
+        <url>https://theprimewood.ru/catalog/planken-pryamoy-listvennitsa-20x120-prima</url>
+        <price>1900</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>2</categoryId>
+        <picture>https://theprimewood.ru/images/planken-prima.jpg</picture>
+        <name>Планкен прямой лиственница 20×120 мм (2–6 м), Прима</name>
+        <description>Отборная доска с минимальными дефектами. Естественная текстура, ровная геометрия. В наличии: 100 шт.</description>
+        <sales_notes>Продается от 1 м²</sales_notes>
+        <param name="Порода">Лиственница</param>
+        <param name="Толщина">20 мм</param>
+        <param name="Ширина">120 мм</param>
+        <param name="Длина">2-6 м</param>
+        <param name="Сорт">Прима</param>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
